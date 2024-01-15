@@ -1,22 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Curriculum</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
-    <h1>Curriculum Vitae.</h1>
-    <hr>
-    <img src="./assets/fotocamila.jpg" alt="Foto de la persona" width="200px">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Curriculum Vitae</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >Inicio <span class="sr-only"></span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Características</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <h2>Camila Tudela Ruiz.</h2>
-    <h3>Resumen:</h3>
-    <p>
-      Tengo 31 años, actualmente vivo en la comuna de Maipú, Stgo de Chile,
-      junto a un hermano de 22 años y mi hijo de 4 años. En este momento me
-      encuentro trabajando hace dos años con un Concejal en la comuna de
-      Estación Central.
-    </p>
+    <hr />
+    <img src="./assets/fotocamila.jpg" alt="Foto de la persona" width="200px" />
     <h3>Datos personales:</h3>
     <ol>
       <li>Fecha de nacimiento: 15 noviembre 1991.</li>
@@ -24,7 +50,7 @@
       <li>Correo electronico: ctudelaruiz@gmail.com</li>
       <li>Residencia: Stgo de chile, comuna de Maipu.</li>
     </ol>
-    <h3>Antecedentes académicos:</h3>
+    <h3>Antecedentes Educacionales:</h3>
     <ul>
       <li>1998-2005 Colegio Boston College.</li>
       <li>2006-2009 Liceo Politécnico Hannover, especilidad Contabilidad.</li>
@@ -33,6 +59,11 @@
         incompleto.
       </li>
     </ul>
+    <h3>Experiencia:</h3>
+    <ul>
+      <li>2020-2023 Asesor Concejal, Estación Central.</li>
+        <li>2017-2019 Ejecutiva de cobranza, Empresa TNT.</li>
+    </ul>
     <h3>Enlaces:</h3>
     <ul>
       <li>
@@ -40,12 +71,15 @@
           href="https://www.instagram.com/camiitude/?next=%2F"
           target="_blank"
           rel="noopener noreferrer"
-          >Instagram.</a>
+          >Instagram.</a
+        >
       </li>
       <li>
         <a href="./portafolio.html" target="_blank" rel="noopener noreferrer"
-          >Portafolio.</a>
+          >Portafolio.</a
+        >
       </li>
     </ul>
+    <div class="footer">Camila Tudela Ruiz</div>
   </body>
 </html>

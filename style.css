@@ -1,0 +1,16 @@
+.footer{
+    height: 3em;
+    line-height: 3em;
+    background-color: #fa6ba7;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 900;
+}
+
+.nav-item{
+    background-color: #fa6ba7;
+}
+
+.navbar-brand{
+    background-color: #fa6ba7;
+}
